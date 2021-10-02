@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109031" started-at="2021-10-03T00:52:14 AEST" finished-at="2021-10-03T00:54:03 AEST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="51595" started-at="2021-10-03T00:52:14 AEST" finished-at="2021-10-03T00:53:06 AEST">
+      <class name="com.planittesting.test.TestCase1">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.planittesting.test.TestCase1@22eeefeb]" name="initialize" is-config="true" duration-ms="8799" started-at="2021-10-03T00:52:14 AEST" finished-at="2021-10-03T00:52:23 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.test.TestCase1@22eeefeb]" name="Test1" duration-ms="41201" started-at="2021-10-03T00:52:25 AEST" data-provider="ValidData" finished-at="2021-10-03T00:53:06 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sh@y.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.planittesting.test.TestCase1@22eeefeb]" name="teardown" is-config="true" duration-ms="99" started-at="2021-10-03T00:53:06 AEST" finished-at="2021-10-03T00:53:06 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.planittesting.test.TestCase1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="24571" started-at="2021-10-03T00:53:06 AEST" finished-at="2021-10-03T00:53:31 AEST">
+      <class name="com.planittesting.test.TestCase2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.planittesting.test.TestCase2@376b4233]" name="initialize" is-config="true" duration-ms="7859" started-at="2021-10-03T00:53:06 AEST" finished-at="2021-10-03T00:53:14 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test2(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.planittesting.test.TestCase2@376b4233]" name="Test2" duration-ms="16263" started-at="2021-10-03T00:53:14 AEST" data-provider="ValidData" finished-at="2021-10-03T00:53:30 AEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shazam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hola!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.planittesting.test.TestCase2@376b4233]" name="teardown" is-config="true" duration-ms="127" started-at="2021-10-03T00:53:30 AEST" finished-at="2021-10-03T00:53:31 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.planittesting.test.TestCase2 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="14109" started-at="2021-10-03T00:53:31 AEST" finished-at="2021-10-03T00:53:45 AEST">
+      <class name="com.planittesting.test.TestCase4">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.planittesting.test.TestCase4@5fdba6f9]" name="initialize" is-config="true" duration-ms="7850" started-at="2021-10-03T00:53:31 AEST" finished-at="2021-10-03T00:53:38 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:com.planittesting.test.TestCase4@5fdba6f9]" name="Test4" duration-ms="6148" started-at="2021-10-03T00:53:38 AEST" finished-at="2021-10-03T00:53:45 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.planittesting.test.TestCase4@5fdba6f9]" name="teardown" is-config="true" duration-ms="108" started-at="2021-10-03T00:53:45 AEST" finished-at="2021-10-03T00:53:45 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.planittesting.test.TestCase4 -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="18696" started-at="2021-10-03T00:53:45 AEST" finished-at="2021-10-03T00:54:03 AEST">
+      <class name="com.planittesting.test.TestCase3">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.planittesting.test.TestCase3@52525845]" name="initialize" is-config="true" duration-ms="7852" started-at="2021-10-03T00:53:45 AEST" finished-at="2021-10-03T00:53:53 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:com.planittesting.test.TestCase3@52525845]" name="Test3" duration-ms="10774" started-at="2021-10-03T00:53:53 AEST" finished-at="2021-10-03T00:54:03 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.planittesting.test.TestCase3@52525845]" name="teardown" is-config="true" duration-ms="65" started-at="2021-10-03T00:54:03 AEST" finished-at="2021-10-03T00:54:03 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.planittesting.test.TestCase3 -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>
